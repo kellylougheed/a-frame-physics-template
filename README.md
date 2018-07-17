@@ -22,7 +22,7 @@ Make an event listener that does something with the player scores a goal:
 * Console log (to start)
 * Use a [text component](https://aframe.io/docs/0.8.0/primitives/a-text.html) to announce "Goal!"
 * Use a [text component](https://aframe.io/docs/0.8.0/primitives/a-text.html) and a variable to keep track of the number of goals
-* Make your text (above) appear in a cool [font](https://github.com/etiennepinchon/aframe-fonts).
+* Make your text (above) appear in a cool [font](https://github.com/etiennepinchon/aframe-fonts)
 * Change an attribute of an element, such as a color or background
 * Play a sound (create a JavaScript [audio element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement) and use the play method)
 * What else can you think of?

@@ -1,13 +1,8 @@
 const player = document.querySelector('#player')
-const theball = document.querySelector('#theball')
+const theball = document.querySelector('#ball')
 
 player.addEventListener('collide', e => {
-    console.log("Collider (below):");
-    console.log(e.detail.target.el);
-    console.log("Collider ID: " + e.detail.target.el.id);
-    
-    console.log("Collided with (below):");
-    console.log(e.detail.body.el);
+    console.log(e.detail.target.el.id + " collided with " + e.detail.body.el);
     
     e.detail.target.el;  // Original entity, the collider
     e.detail.body.el;    // Entity that was collided with

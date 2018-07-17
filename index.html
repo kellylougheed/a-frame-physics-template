@@ -11,11 +11,11 @@
             <a-sky color="#ECECEC"></a-sky>
             
             <!--Build three obstacles as static bodies so we can stand on them-->
-            <a-box static-body position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-            <a-cylinder static-body position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+            <a-box id="box" static-body position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+            <a-cylinder id="cylinder" static-body position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
             
             <!--Build one dynamic body - a soccer ball we can play with-->
-            <a-sphere id="theball" dynamic-body position="4 1.25 -5" radius="0.5" color="tomato" mass="1"></a-sphere>
+            <a-sphere id="ball" dynamic-body position="4 1.25 -5" radius="0.5" color="tomato" mass="1"></a-sphere>
             
             <!--Make a player/camera entity, and give it the attributes we need it to have in order control camera with mouse, movement with WASD, and jump with spacebar-->
             <a-entity class="player" id="player"
