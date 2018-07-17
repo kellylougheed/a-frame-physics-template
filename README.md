@@ -1,11 +1,8 @@
 # Build an A-Frame Game!
 
-This project template uses Don McCurdy's A-Frame extras. 
+This project template uses Don McCurdy's [A-Frame extras](https://github.com/donmccurdy/aframe-extras).
 
-Donmccurdy's extras:
-https://github.com/donmccurdy/aframe-extras
-
-His documentation is pretty good. Read it there. 
+Check out the [A-Frame Physics documentation](https://github.com/donmccurdy/aframe-physics-system).
 
 ## Playtime 1
 
